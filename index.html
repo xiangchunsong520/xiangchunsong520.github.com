@@ -16,22 +16,22 @@
                 Sys.safari = ua.match(/version\/([\d.]+)/)[1];
         
             //以下进行测试
-            //if(Sys.ie) document.write('IE: '+Sys.ie);
-            //if(Sys.firefox) document.write('Firefox: '+Sys.firefox);
-            //if(Sys.chrome) document.write('Chrome: '+Sys.chrome);
-            //if(Sys.opera) document.write('Opera: '+Sys.opera);
-            //if(Sys.safari) document.write('Safari: '+Sys.safari);
+            if(Sys.ie) document.write('IE: '+Sys.ie);
+            if(Sys.firefox) document.write('Firefox: '+Sys.firefox);
+            if(Sys.chrome) document.write('Chrome: '+Sys.chrome);
+            if(Sys.opera) document.write('Opera: '+Sys.opera);
+            if(Sys.safari) document.write('Safari: '+Sys.safari);
             
-            if (Sys.safari)
-            {
-                window.location = "tuningstorm:";
-                setTimeout( function() { window.location="http://itunes.apple.com/us/app/car-club-tuning-storm/id494481220?mt=8"; }, 1500);
-            }
-            else
-            {
-                window.location = "tuningstorm:";
-                setTimeout( function() { window.location="http://tapsoul.net"; }, 1500);
-            }
+            //if (Sys.safari)
+            //{
+            //    window.location = "tuningstorm:";
+            //    setTimeout( function() { window.location="http://itunes.apple.com/us/app/car-club-tuning-storm/id494481220?mt=8"; }, 1500);
+            //}
+            //else
+            //{
+            //    window.location = "tuningstorm:";
+            //    setTimeout( function() { window.location="http://tapsoul.net"; }, 1500);
+            //}
         </script>
     </body>
 </html>
