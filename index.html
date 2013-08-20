@@ -2,7 +2,17 @@
 <html>
     <body>
         <script>
-            document.write("Platform: " + navigator.userAgent);
+            var ua = navigator.userAgent.toLowerCase();
+            if (window.openDatabase)
+            {
+                window.location = "tuningstorm:";
+                setTimeout( function() { window.location="http://itunes.apple.com/us/app/car-club-tuning-storm/id494481220?mt=8"; }, 1500);
+            }
+            else
+            {
+                window.location = "tuningstorm:";
+                setTimeout( function() { window.location="http://tapsoul.net"; }, 1500);
+            }
         </script>
     </body>
 </html>
