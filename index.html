@@ -27,7 +27,7 @@
             
             if(iOS || navigator.platform.indexOf("Mac") == 0)
             {
-                window.location = "tuningstorm:";
+                if(iOS) window.location = "tuningstorm:";
                 setTimeout( function() { window.location="http://itunes.apple.com/us/app/car-club-tuning-storm/id494481220?mt=8"; }, 1500);
             }
             else
