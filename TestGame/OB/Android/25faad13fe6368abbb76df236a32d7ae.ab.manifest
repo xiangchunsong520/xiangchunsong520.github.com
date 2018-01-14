@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3132950028
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e0722f671d8c83bd3345e6815729d88c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 253a9e473ba078b2d48f17f68b227cc1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 09da92e2e2ce52f429455a3000b02e5d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI_Atlas/tile2/tile19-hd.png
+- Assets/UI_Atlas/tile2/tile18-hd.png
+- Assets/UI_Atlas/tile2/bg_main-hd.png
+- Assets/UI_Atlas/tile2/tile2-hd.png
+- Assets/UI_Atlas/tile2/tile13-hd.png
+- Assets/UI_Atlas/tile2/tile3-hd.png
+- Assets/UI_Atlas/tile2/tile15-hd.png
+- Assets/UI_Atlas/tile2/tile8-hd.png
+- Assets/UI_Atlas/tile2/tile16-hd.png
+- Assets/UI_Atlas/tile2/tile6-hd.png
+- Assets/UI_Atlas/tile2/tile7-hd.png
+- Assets/UI_Atlas/tile2/tile11-hd.png
+- Assets/UI_Atlas/tile2/tile5-hd.png
+- Assets/UI_Atlas/tile2/tile20-hd.png
+- Assets/UI_Atlas/tile2/tile17-hd.png
+- Assets/UI_Atlas/tile2/tile12-hd.png
+- Assets/UI_Atlas/tile2/tile4-hd.png
+- Assets/UI_Atlas/tile2/tile14-hd.png
+- Assets/UI_Atlas/tile2/tile10-hd.png
+- Assets/UI_Atlas/tile2/tile9-hd.png
+- Assets/Resources/UI/Atlas/tile2.prefab
+Dependencies: []

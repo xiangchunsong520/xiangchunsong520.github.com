@@ -1,0 +1,200 @@
+ManifestFileVersion: 0
+CRC: 3125010291
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 942b01fdb26043d05957f174c08eca8d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 253a9e473ba078b2d48f17f68b227cc1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 09da92e2e2ce52f429455a3000b02e5d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI_Atlas/texturePack/4001_ty3-hd.png
+- Assets/UI_Atlas/texturePack/1006_s-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty5-hd.png
+- Assets/UI_Atlas/texturePack/4002_a-hd.png
+- Assets/UI_Atlas/texturePack/3002-hd.png
+- Assets/UI_Atlas/texturePack/4001_yh2-hd.png
+- Assets/UI_Atlas/texturePack/3002_s-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt7-hd.png
+- Assets/UI_Atlas/texturePack/1008_a-hd.png
+- Assets/UI_Atlas/texturePack/4001_yh1-hd.png
+- Assets/UI_Atlas/texturePack/4002_yh2-hd.png
+- Assets/UI_Atlas/texturePack/4002_ag1-hd.png
+- Assets/UI_Atlas/texturePack/bomb11-hd.png
+- Assets/UI_Atlas/texturePack/1014_s-hd.png
+- Assets/UI_Atlas/texturePack/4001_ag3-hd.png
+- Assets/UI_Atlas/texturePack/help_bordertop-hd.png
+- Assets/UI_Atlas/texturePack/1014-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx8-hd.png
+- Assets/UI_Atlas/texturePack/1019_a-hd.png
+- Assets/UI_Atlas/texturePack/bomb13-hd.png
+- Assets/UI_Atlas/texturePack/bomb01-hd.png
+- Assets/UI_Atlas/texturePack/4001_ag1-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx2-hd.png
+- Assets/UI_Atlas/texturePack/3001_a-hd.png
+- Assets/UI_Atlas/texturePack/7001-hd.png
+- Assets/UI_Atlas/texturePack/bomb08-hd.png
+- Assets/UI_Atlas/texturePack/1006_a-hd.png
+- Assets/UI_Atlas/texturePack/1010_a-hd.png
+- Assets/UI_Atlas/texturePack/1009-hd.png
+- Assets/UI_Atlas/texturePack/4001_yh5-hd.png
+- Assets/UI_Atlas/texturePack/1017_a-hd.png
+- Assets/UI_Atlas/texturePack/4002_yh4-hd.png
+- Assets/UI_Atlas/texturePack/1015-hd.png
+- Assets/UI_Atlas/texturePack/1001-hd.png
+- Assets/UI_Atlas/texturePack/bomb09-hd.png
+- Assets/UI_Atlas/texturePack/1013_a-hd.png
+- Assets/UI_Atlas/texturePack/3001-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx4-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt5-hd.png
+- Assets/UI_Atlas/texturePack/1018_s-hd.png
+- Assets/UI_Atlas/texturePack/5001-hd.png
+- Assets/Resources/UI/Atlas/texturePack.prefab
+- Assets/UI_Atlas/texturePack/2001-hd.png
+- Assets/UI_Atlas/texturePack/1019_s-hd.png
+- Assets/UI_Atlas/texturePack/2004_s-hd.png
+- Assets/UI_Atlas/texturePack/bomb03-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt1-hd.png
+- Assets/UI_Atlas/texturePack/1012-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx7-hd.png
+- Assets/UI_Atlas/texturePack/4002_ag4-hd.png
+- Assets/UI_Atlas/texturePack/4002_s-hd.png
+- Assets/UI_Atlas/texturePack/1009_a-hd.png
+- Assets/UI_Atlas/texturePack/4002_yh1-hd.png
+- Assets/UI_Atlas/texturePack/1005_a-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt4-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx5-hd.png
+- Assets/UI_Atlas/texturePack/9001_s-hd.png
+- Assets/UI_Atlas/texturePack/1004_a-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt9-hd.png
+- Assets/UI_Atlas/texturePack/4001_s-hd.png
+- Assets/UI_Atlas/texturePack/1010-hd.png
+- Assets/UI_Atlas/texturePack/bomb06-hd.png
+- Assets/UI_Atlas/texturePack/bomb14-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt3-hd.png
+- Assets/UI_Atlas/texturePack/1015_a-hd.png
+- Assets/UI_Atlas/texturePack/1016_a-hd.png
+- Assets/UI_Atlas/texturePack/1003-hd.png
+- Assets/UI_Atlas/texturePack/7003-hd.png
+- Assets/UI_Atlas/texturePack/1014_a-hd.png
+- Assets/UI_Atlas/texturePack/2004_a-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt1-hd.png
+- Assets/UI_Atlas/texturePack/1003_s-hd.png
+- Assets/UI_Atlas/texturePack/4002_ag5-hd.png
+- Assets/UI_Atlas/texturePack/1018-hd.png
+- Assets/UI_Atlas/texturePack/1018_a-hd.png
+- Assets/UI_Atlas/texturePack/1005_s-hd.png
+- Assets/UI_Atlas/texturePack/1011_a-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt5-hd.png
+- Assets/UI_Atlas/texturePack/1016_s-hd.png
+- Assets/UI_Atlas/texturePack/1004_s-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx9-hd.png
+- Assets/UI_Atlas/texturePack/4002_ag2-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt2-hd.png
+- Assets/UI_Atlas/texturePack/4001-hd.png
+- Assets/UI_Atlas/texturePack/help_arrow-hd.png
+- Assets/UI_Atlas/texturePack/bomb05-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt7-hd.png
+- Assets/UI_Atlas/texturePack/7001_s-hd.png
+- Assets/UI_Atlas/texturePack/bomb17-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx1-hd.png
+- Assets/UI_Atlas/texturePack/bomb16-hd.png
+- Assets/UI_Atlas/texturePack/1002_s-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty7-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt8-hd.png
+- Assets/UI_Atlas/texturePack/1013-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx6-hd.png
+- Assets/UI_Atlas/texturePack/bomb20-hd.png
+- Assets/UI_Atlas/texturePack/1001_a-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt2-hd.png
+- Assets/UI_Atlas/texturePack/2002_s-hd.png
+- Assets/UI_Atlas/texturePack/1005-hd.png
+- Assets/UI_Atlas/texturePack/1001_s-hd.png
+- Assets/UI_Atlas/texturePack/main_nowfx3-hd.png
+- Assets/UI_Atlas/texturePack/1011-hd.png
+- Assets/UI_Atlas/texturePack/4001_a-hd.png
+- Assets/UI_Atlas/texturePack/1009_s-hd.png
+- Assets/UI_Atlas/texturePack/main_add-hd.png
+- Assets/UI_Atlas/texturePack/bomb10-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt6-hd.png
+- Assets/UI_Atlas/texturePack/9001_a-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt8-hd.png
+- Assets/UI_Atlas/texturePack/1003_a-hd.png
+- Assets/UI_Atlas/texturePack/2004-hd.png
+- Assets/UI_Atlas/texturePack/4002_nt6-hd.png
+- Assets/UI_Atlas/texturePack/3001_s-hd.png
+- Assets/UI_Atlas/texturePack/bomb19-hd.png
+- Assets/UI_Atlas/texturePack/1002-hd.png
+- Assets/UI_Atlas/texturePack/7001_a-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty2-hd.png
+- Assets/UI_Atlas/texturePack/1008-hd.png
+- Assets/UI_Atlas/texturePack/7003_s-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt3-hd.png
+- Assets/UI_Atlas/texturePack/4002_yh5-hd.png
+- Assets/UI_Atlas/texturePack/6001_a-hd.png
+- Assets/UI_Atlas/texturePack/4001_ag4-hd.png
+- Assets/UI_Atlas/texturePack/1012_s-hd.png
+- Assets/UI_Atlas/texturePack/1002_a-hd.png
+- Assets/UI_Atlas/texturePack/4001_yh4-hd.png
+- Assets/UI_Atlas/texturePack/2001_a-hd.png
+- Assets/UI_Atlas/texturePack/bomb12-hd.png
+- Assets/UI_Atlas/texturePack/4001_ag2-hd.png
+- Assets/UI_Atlas/texturePack/1007-hd.png
+- Assets/UI_Atlas/texturePack/5001_s-hd.png
+- Assets/UI_Atlas/texturePack/1008_s-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty6-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty4-hd.png
+- Assets/UI_Atlas/texturePack/4002_yh3-hd.png
+- Assets/UI_Atlas/texturePack/2002-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt9-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty8-hd.png
+- Assets/UI_Atlas/texturePack/4001_yh3-hd.png
+- Assets/UI_Atlas/texturePack/1007_s-hd.png
+- Assets/UI_Atlas/texturePack/9001-hd.png
+- Assets/UI_Atlas/texturePack/3002_a-hd.png
+- Assets/UI_Atlas/texturePack/1012_a-hd.png
+- Assets/UI_Atlas/texturePack/depot-hd.png
+- Assets/UI_Atlas/texturePack/2002_a-hd.png
+- Assets/UI_Atlas/texturePack/1015_s-hd.png
+- Assets/UI_Atlas/texturePack/forbid-hd.png
+- Assets/UI_Atlas/texturePack/4001_ty1-hd.png
+- Assets/UI_Atlas/texturePack/4002-hd.png
+- Assets/UI_Atlas/texturePack/5001_a-hd.png
+- Assets/UI_Atlas/texturePack/1011_s-hd.png
+- Assets/UI_Atlas/texturePack/1004-hd.png
+- Assets/UI_Atlas/texturePack/4002_ag3-hd.png
+- Assets/UI_Atlas/texturePack/bomb07-hd.png
+- Assets/UI_Atlas/texturePack/4001_ag5-hd.png
+- Assets/UI_Atlas/texturePack/7003_a-hd.png
+- Assets/UI_Atlas/texturePack/1006-hd.png
+- Assets/UI_Atlas/texturePack/6001-hd.png
+- Assets/UI_Atlas/texturePack/1017-hd.png
+- Assets/UI_Atlas/texturePack/bomb02-hd.png
+- Assets/UI_Atlas/texturePack/1019-hd.png
+- Assets/UI_Atlas/texturePack/1010_s-hd.png
+- Assets/UI_Atlas/texturePack/bomb15-hd.png
+- Assets/UI_Atlas/texturePack/bomb18-hd.png
+- Assets/UI_Atlas/texturePack/bomb04-hd.png
+- Assets/UI_Atlas/texturePack/1013_s-hd.png
+- Assets/UI_Atlas/texturePack/4001_nt4-hd.png
+- Assets/UI_Atlas/texturePack/6001_s-hd.png
+- Assets/UI_Atlas/texturePack/2001_s-hd.png
+- Assets/UI_Atlas/texturePack/help_border-hd.png
+- Assets/UI_Atlas/texturePack/1017_s-hd.png
+- Assets/UI_Atlas/texturePack/1016-hd.png
+- Assets/UI_Atlas/texturePack/1007_a-hd.png
+Dependencies: []

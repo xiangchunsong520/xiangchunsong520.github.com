@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1411307022
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99566a7e61538d53b737bae4d74c732d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/sound/se_faild.wav
+Dependencies: []

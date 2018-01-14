@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2434086514
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e87b875067effe567c8ab31f5d67ee56
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 253a9e473ba078b2d48f17f68b227cc1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 09da92e2e2ce52f429455a3000b02e5d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI_Atlas/Common/baoxiang_bg.png
+- Assets/UI_Atlas/Common/gameover_coin_big-hd.png
+- Assets/UI_Atlas/Common/bg_main_bar_1-hd.png
+- Assets/UI_Atlas/Common/game_butten_green.png
+- Assets/Resources/UI/Atlas/Common.prefab
+- Assets/UI_Atlas/Common/bg_main_bar_3-hd.png
+- Assets/UI_Atlas/Common/game_butten_bule.png
+Dependencies: []

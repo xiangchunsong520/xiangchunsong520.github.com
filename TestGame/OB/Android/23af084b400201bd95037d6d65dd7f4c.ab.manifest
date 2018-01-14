@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 808333310
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c72448d7e98ba37ad97589bd324e063
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: da8f47918b75f953fbeb32143a778e6c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -98529514, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f1823bc81175994eb2fc7c3ea21037d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI/Install/LaunchWindow.prefab
+Dependencies:
+- E:/UnityClientFramework/GameClient/Assets/../../Builds/ExportResources/Android/e835bd4a42f7ce333f22f88aa7273ce5.ab
+- E:/UnityClientFramework/GameClient/Assets/../../Builds/ExportResources/Android/b9f91b36945247b91e38b6a85226e1b9.ab
+- E:/UnityClientFramework/GameClient/Assets/../../Builds/ExportResources/Android/c270fc62ea1854f3b9925419e46dc6f3.ab
