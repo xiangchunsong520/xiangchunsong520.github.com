@@ -13,7 +13,7 @@ k
 ;Assets/Resources/Install/Unpackage/Data/ChannelConfig.bytesÊëĞ¥ 
 j
  a32e6fcb0deb226a40059f12168797c7F
-:Assets/Resources/Install/Unpackage/Data/ClientConfig.bytesÕ“Ú 
+:Assets/Resources/Install/Unpackage/Data/ClientConfig.bytesà®·  
 f
  7aa12d7ff33c361d39f909d4e9d2dff2B
 6Assets/Resources/Install/Unpackage/Data/Language.bytesö‡ö 
@@ -32,7 +32,7 @@ d
 4Assets/Resources/Install/Unpackage/Data/Zhadan.bytes€€‹É 
 c
  bf6615c9f38caab4d25aa94f24d3eebc?
-2Assets/Resources/Install/Unpackage/GameLogic.bytes¹ì¾¾ Ö
+2Assets/Resources/Install/Unpackage/GameLogic.bytesÉöÊ³ Ü
 X
  c7ac941b2a5f664447d3af4dd4f6944b4
 'Assets/Resources/sound/LeavingIndia.mp3Œ°îù “0
@@ -92,28 +92,28 @@ U
 ,Assets/Resources/UI/Atlas/texturePack.prefab„»¿É Ğ0
 W
  0b564ea5e91656a3266c1e44e84cbea63
-&Assets/Resources/UI/Atlas/tile1.prefabéæ™ Æ0
+&Assets/Resources/UI/Atlas/tile1.prefab•ƒªä Æ0
 W
  25faad13fe6368abbb76df236a32d7ae3
-&Assets/Resources/UI/Atlas/tile2.prefabøßú— Ü0
+&Assets/Resources/UI/Atlas/tile2.prefab¡å­¡ Ü0
 W
  ffd12b0bb326128d8bb0029bb1827ebe3
-&Assets/Resources/UI/Atlas/tile3.prefabâÖĞ¦	 ¦0
+&Assets/Resources/UI/Atlas/tile3.prefabß–ï ¦0
 W
  a0ddb2793f8277074726c2409cf18c583
-&Assets/Resources/UI/Atlas/tile4.prefabã ¾‹ Û0
+&Assets/Resources/UI/Atlas/tile4.prefab£¨ùŸ Û0
 W
  078eb205f8d4aedebc8dc372fcb045103
-&Assets/Resources/UI/Atlas/tile5.prefabŠÍŠ Ô0
+&Assets/Resources/UI/Atlas/tile5.prefabŞ“ë„ Ô0
 W
  1eeaab9dbdfbf7d1389e7bc9064fd0573
-&Assets/Resources/UI/Atlas/tile6.prefaböŒµ Ø0
+&Assets/Resources/UI/Atlas/tile6.prefabÀÂ¯ü Ø0
 W
  6e5cd17e0d03e609d9239d50e6d0a48c3
-&Assets/Resources/UI/Atlas/tile7.prefab øå Ô0
+&Assets/Resources/UI/Atlas/tile7.prefabÌù°õ	 Õ0
 W
  70cf507cfbf28c3bb82790815b578be43
-&Assets/Resources/UI/Atlas/tile8.prefab“À÷‚ Ò0
+&Assets/Resources/UI/Atlas/tile8.prefabß÷çÕ Ò0
 Ç
  23af084b400201bd95037d6d65dd7f4c¢
 /Assets/Resources/UI/Install/LaunchWindow.prefab® ‰ï	 ¸* b9f91b36945247b91e38b6a85226e1b9* e835bd4a42f7ce333f22f88aa7273ce5* c270fc62ea1854f3b9925419e46dc6f3
@@ -138,7 +138,7 @@ T
 )Assets/Resources/UI/EnterMapWindow.prefab’¤²å 	* 3dfef47325bfe3643d7a7e4a956f47c4* e835bd4a42f7ce333f22f88aa7273ce5
 —
  8db97895a5fc541374944cb9f3e7a167s
-%Assets/Resources/UI/GameWindow.prefabíùáÚ * 24ae2893c9aa260804b538b3f9cc47c0* e835bd4a42f7ce333f22f88aa7273ce5
+%Assets/Resources/UI/GameWindow.prefab˜Îå * 24ae2893c9aa260804b538b3f9cc47c0* e835bd4a42f7ce333f22f88aa7273ce5
 š
  1e100dc9df571463127203349d110ce4v
 (Assets/Resources/UI/LockMapWindow.prefab¡û¤í * 3dfef47325bfe3643d7a7e4a956f47c4* e835bd4a42f7ce333f22f88aa7273ce5
