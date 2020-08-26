@@ -1,21 +1,103 @@
-<!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01//EN” “http://www.w3.org/TR/html4/strict.dtd”>
-<html>
-    <body>
-        <script>
-            document.write('Hello World<br />');
-            document.write('My name is xcs!');
-        </script>
-    </body>
-</html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>我的笔记</title>
+    <link rel="stylesheet" href="css/github-markdown.css">
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+    
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+    <script src="js/jquery.js"></script>
+    <script src="js/marked.js"></script>
+    <script>
+        var curdir = "";
+
+        (function ($) {
+            $.getUrlParam = function (name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) return unescape(r[2]); return null;
+            }
+        })(jQuery);
+
+        function getRealPath(path){
+            if (path.startsWith("../"))
+            {
+                dir = curdir
+                do {
+                    idx = dir.lastIndexOf("/")
+                    if (idx > 0)
+                    {
+                        dir = dir.substr(0, idx)
+                    }
+                    path = path.substr(3)
+                } while (path.startsWith("../"));
+                path = dir + "/" + path
+            }
+            else if (path.startsWith("./"))
+            {
+                path = curdir + path.substr(1)
+            }
+            
+            return path
+        }
+
+        const renderer = {
+            link(href, title, text)
+            {
+                if (href.endsWith(".md"))
+                {
+                    href = getRealPath(href)
+                    href = "index.html?path="+href
+                }
+                return `<a href="${href}">${text}</a>`
+            },
+            image(href, title, text)
+            {
+                console.log(href)
+                console.log(title)
+                console.log(text)
+                href = getRealPath(href)
+                if (title != null && title.length > 0)
+                    return `<img src="${href}" alt="${text}" title="${title}">`
+                return `<img src="${href}" alt="${text}">`
+            }
+        };
+        marked.use({ renderer });
+
+        function loadMarkdown(path)
+        {
+            $.ajax({url:path, dataType:"text", success:function(data){
+                $("#content").html(marked(data))
+            }})
+        }
+
+        $(document).ready(function(){
+            path = $.getUrlParam("path")
+            if (path == null){
+                path = "doc/home.md"
+            }
+            idx = path.lastIndexOf("/")
+            curdir = path.substr(0, idx)
+            console.log(curdir)
+            loadMarkdown(path)
+        });
+    </script>
 </head>
 <body>
-    
+    <div id="content" class="markdown-body"></div>
 </body>
-</html> -->
+</html>
