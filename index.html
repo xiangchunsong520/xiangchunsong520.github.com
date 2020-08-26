@@ -67,9 +67,6 @@
             },
             image(href, title, text)
             {
-                console.log(href)
-                console.log(title)
-                console.log(text)
                 href = getRealPath(href)
                 if (title != null && title.length > 0)
                     return `<img src="${href}" alt="${text}" title="${title}">`
@@ -92,7 +89,6 @@
             }
             idx = path.lastIndexOf("/")
             curdir = path.substr(0, idx)
-            console.log(curdir)
             loadMarkdown(path)
         });
     </script>
