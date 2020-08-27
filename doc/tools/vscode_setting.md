@@ -55,10 +55,19 @@
     "Lua.diagnostics.severity" : {
       "redefined-local" : "Hint",
       "emmy-lua" : "Hint",
-      "undefined-global": "Hint",
+      "undefined-global": "Hint",   //隐藏未定义的全局变量提示
       "lowercase-global": "Hint",
     }
   ```  
+  4.在根目录下创建`.luacheckrc`文件,在文件中插入以下代码  
+  ```lua
+    std = {
+      globals = {
+        "ClassicCombos",    -- 隐藏未定义的全局变量提示
+      }
+    }
+    max_line_length = 255   -- 单行最大字数
+  ```
   
 <br/>  
 <br/>  
