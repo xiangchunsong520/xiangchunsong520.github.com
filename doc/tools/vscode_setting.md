@@ -1,11 +1,37 @@
 # vscode各种设置  
 
 * 基本设置  
-  1.在`File`->`Perferences`->`Settings`中搜索`Render Whitespace`,在下拉框中选择`all`  
+  1.在`File`->`Perferences`->`Settings`中搜索`Render Whitespace`,在下拉框中选择`all`,把空白字符都渲染出来,方便查看代码  
   ![设置](../images/tools/4.png)  
   2.安装`indent-rainbow`插件,缩进自动彩色，大大提高编程效率  
   3.安装`Rainbow Brackets`插件,括号彩色分组，防止看错括号对  
   
+<br/>  
+<br/>  
+
+* 设置右键打开VSCode
+  1.创建一个文本文档,将后缀名改为`.reg`,将以下代码复制进去  
+  ```
+  Windows Registry Editor Version 5.00
+
+  [HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+  @="Open with Code"
+  "Icon"="D:\\Program Files\\Microsoft VS Code\\Code.exe"
+
+  [HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
+  @="\"D:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
+
+  Windows Registry Editor Version 5.00
+
+  [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
+  @="Open with Code"
+  "Icon"="D:\\Program Files\\Microsoft VS Code\\Code.exe"
+
+  [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
+  @="\"D:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
+  ```  
+  里面的目录换成你电脑上VSCode安装的目录
+  2.保存文档,双击运行,点继续.右键就`Open with Code`选项了
 <br/>  
 <br/>  
 
