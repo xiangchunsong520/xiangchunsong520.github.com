@@ -10,11 +10,12 @@
             "type": "chrome",
             "request": "launch",
             "file": "${workspaceRoot}/index.html",
-        //  "url": "http://mysite.com/index.html", //使用外部服务器时,请注释掉 file, 改用 url, 并将 useBuildInServer 设置为 false "http://mysite.com/index.html
+            // "url": "http://mysite.com/index.html", 
+            //使用外部服务器时,请注释掉 file, 改用 url, 并将 useBuildInServer 设置为 false
             "runtimeExecutable": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", // 改成您的 Chrome 安装路径
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}",
-        //  "preLaunchTask":"build",
+            // "preLaunchTask":"build",
             "userDataDir":"${tmpdir}",
             "port":5433
         }
