@@ -66,15 +66,21 @@
 
         function loadMarkdown(path)
         {
-            $.ajax({url:path, dataType:"text", success:function(data){
+            // $.ajax({url:path, dataType:"text", success:function(data){
+            //     $("#content").html(marked(data))
+            //     // document.querySelectorAll('pre code').forEach((block) => {
+            //     //     hljs.highlightBlock(block);
+            //     // });
+            //     $("pre code").each(function(idx, elem){
+            //         hljs.highlightBlock(elem)
+            //     })
+            // }})
+            $.get(path, function(data, status, jqXHR){
                 $("#content").html(marked(data))
-                // document.querySelectorAll('pre code').forEach((block) => {
-                //     hljs.highlightBlock(block);
-                // });
                 $("pre code").each(function(idx, elem){
                     hljs.highlightBlock(elem)
                 })
-            }})
+            })
         }
 
         $(document).ready(function(){

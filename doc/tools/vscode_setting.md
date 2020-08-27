@@ -18,7 +18,7 @@
             // "preLaunchTask":"build",
             "userDataDir":"${tmpdir}",
             "port":5433
-        }
+    }
   ```  
   4.在调试栏下选择`使用本机 Chrome 调试`  
   ![调试](../images/tools/1.png "可选标题")  
@@ -34,6 +34,22 @@
   ![预览按钮](../images/tools/2.png)  
   4.实时预览  
   ![预览](../images/tools/3.png)  
+  
+<br/>  
+<br/>  
+
+* lua设置  
+  1.安装`Lua Language Server coded by Lua`插件  
+  2.安装`Luacheck`插件  
+  3.在`settings.json`中插入以下配置  
+  ```json
+    "Lua.diagnostics.severity" : {
+      "redefined-local" : "Hint",
+      "emmy-lua" : "Hint",
+      "undefined-global": "Hint",
+      "lowercase-global": "Hint",
+    }
+  ```  
   
 <br/>  
 <br/>  
