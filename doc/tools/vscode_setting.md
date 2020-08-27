@@ -1,5 +1,14 @@
 # vscode各种设置  
 
+* 基本设置  
+  1.在`File`->`Perferences`->`Settings`中搜索`Render Whitespace`,在下拉框中选择`all`  
+  ![设置](../images/tools/4.png)  
+  2.安装`indent-rainbow`插件,缩进自动彩色，大大提高编程效率  
+  3.安装`Rainbow Brackets`插件,括号彩色分组，防止看错括号对  
+  
+<br/>  
+<br/>  
+
 * 设置调试html设置  
   1.VSCode 上装一个插件：`Debugger for Chrome`  
   2.按F5，打开`launch.json`  
