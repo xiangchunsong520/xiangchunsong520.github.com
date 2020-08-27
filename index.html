@@ -4,25 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的笔记</title>
-    <link rel="stylesheet" href="css/github.css">
     <link rel="stylesheet" href="css/github-markdown.css">  
-    <style>
-        .markdown-body {
-            box-sizing: border-box;
-            min-width: 200px;
-            max-width: 980px;
-            margin: 0 auto;
-            padding: 45px;
-        }
-    
-        @media (max-width: 767px) {
-            .markdown-body {
-                padding: 15px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/vs2015.css">
+
     <script src="js/jquery.js"></script>
-    <script src="js/marked.js"></script>
+    <script src="js/marked.min.js"></script>
     <script src="js/highlight.pack.js"></script>
     <!-- <script>hljs.initHighlightingOnLoad();</script> -->
     <script>
@@ -64,7 +50,7 @@
                 if (href.endsWith(".md"))
                 {
                     href = getRealPath(href)
-                    href = "index.html?path="+href
+                    href = ".?path="+href
                 }
                 return `<a href="${href}">${text}</a>`
             },
@@ -82,9 +68,12 @@
         {
             $.ajax({url:path, dataType:"text", success:function(data){
                 $("#content").html(marked(data))
-                document.querySelectorAll('pre code').forEach((block) => {
-                    hljs.highlightBlock(block);
-                });
+                // document.querySelectorAll('pre code').forEach((block) => {
+                //     hljs.highlightBlock(block);
+                // });
+                $("pre code").each(function(idx, elem){
+                    hljs.highlightBlock(elem)
+                })
             }})
         }
 
