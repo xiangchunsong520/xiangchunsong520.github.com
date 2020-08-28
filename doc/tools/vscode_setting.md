@@ -31,7 +31,7 @@
   @="\"D:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
   ```  
   里面的目录换成你电脑上VSCode安装的目录  
-  2.保存文档,双击运行,点继续.右键就`Open with Code`选项了
+  2.保存文档,双击运行,点继续.右键就`Open with Code`选项了  
 <br/>  
 <br/>  
 
