@@ -9,7 +9,7 @@
 <br/>  
 <br/>  
 
-* 设置右键打开VSCode
+* 设置右键打开VSCode  
   1.创建一个文本文档,将后缀名改为`.reg`,将以下代码复制进去  
   ```
   Windows Registry Editor Version 5.00
@@ -30,7 +30,7 @@
   [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
   @="\"D:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
   ```  
-  里面的目录换成你电脑上VSCode安装的目录
+  里面的目录换成你电脑上VSCode安装的目录  
   2.保存文档,双击运行,点继续.右键就`Open with Code`选项了
 <br/>  
 <br/>  
