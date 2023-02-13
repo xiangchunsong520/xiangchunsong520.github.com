@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var ws = new WebSocket('ws://127.0.0.1:2345')
+        
+        ws.onopen = function() {
+            // 发送 Hello 消息
+            ws.send(JSON.stringify({Hello: {
+                Name: 'leaf'
+            }}))
+            ws.close()
+        }
+        </script>
+</body>
+</html>
