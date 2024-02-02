@@ -17,7 +17,7 @@
     `command-parameters` 为特定命令指定参数或命令行开关。  
     
     TTT示例：  
-    ```
+    ```bat
     for %%i in (t*.*) do echo %%i --显示当前目录下与t*.*相匹配的文件(只显示文件名，不显示路径)
     for %%i in (d:\mydocuments\*.doc) do @echo %%i --显示d:\mydocuments\目录下与*.doc相匹配的文件
     ```
@@ -27,7 +27,7 @@
     这个参数主要用于目录搜索,不会搜索文件,/D 参数只能显示当前目录下的目录名字。(TTT特别说明：只会搜索指定目录下的目录，不会搜索再下一级的目录。)  
     
     TTT示例：  
-    ```
+    ```bat
     for /d %%i in (c:\*) do echo %%i --显示c盘根目录下的所有目录
     for /d %%i in (???) do echo %%i --显示当前目录下名字只有1-3个字母的目录
     ```
@@ -38,11 +38,11 @@
     1、set中的文件名如果含有通配符(？或*)，则列举/R参数指定的目录及其下面的所用子目录中与set相符合的所有文件，无相符文件的目录则不列举。  
     2、如果set中为具体文件名，不含通配符，则枚举该目录树（即列举该目录及其下面的所有子目录）(并在后面加上具体的文件名)，而不管set中的指定文件是否存在。  
     例：  
-    ```
+    ```bat
     for /r c:\ %%i in (*.exe) do echo %%i --把C盘根目录,和每个目录的子目录下面全部的EXE文件都列出来了!!!!
     ```
     TTT示例： 
-    ```
+    ```bat
     for /r c:\ %%i in (boot.ini) do echo %%i --枚举了c盘所有目录
     for /r d:\backup %%i in (1) do echo %%i --枚举d\backup目录
     for /r c:\ %%i in (boot.ini) do if exist %%i echo %%i --很好的搜索命令，列举boot.ini存在的目录
@@ -53,7 +53,7 @@
     该集表示以增量形式从开始到结束的一个数字序列。可以使用负的 Step  
     
     TTT示例：  
-    ```
+    ```bat
     for /l %%i in (1,1,5) do @echo %%i --输出1 2 3 4 5
     for /l %%i in (1,2,10) do @echo %%i --输出1,3，5,7，9
     for /l %%i in (100,-20,1) do @echo %%i --输出100,80,60,40,20
@@ -113,7 +113,7 @@
     "55"55"55
     ```  
     也可建立个BAT文件代码如下:
-    ```
+    ```bat
     @echo off
     echo ^"1111>temp.txt
     echo "2222">>temp.txt
@@ -139,7 +139,7 @@
 * 二、 %~fI - 将 %I 扩展到一个完全合格的路径名  
     示例:  
     把代码保存放在随便哪个地方,我这里就放桌面吧.  
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~fi
     pause
     ```
@@ -149,7 +149,7 @@
     C:\Documents and Settings\Administrator\桌面\test.vbs
     ```
     当我把代码中的 %%~fi直接改成%%i  
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%i
     pause
     ```
@@ -163,7 +163,7 @@
 * 三、 %~dI - 仅将 %I 扩展到一个驱动器号  
     看例子:  
     代码如下,我还是放到桌面执行!  
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~di
     pause
     ```
@@ -176,7 +176,7 @@
     <br>
 * 四、 %~pI - 仅将 %I 扩展到一个路径  
     这个用法和上面一样,他只打印路径不打印文件名字  
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~pi
     pause
     ```
@@ -184,42 +184,42 @@
     <br>
 * 五、 %~nI - 仅将 %I 扩展到一个文件名  
     只打印文件名字
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~ni
     pause
     ```
     <br>
 * 六、 %~xI - 仅将 %I 扩展到一个文件扩展名  
     只打印文件的扩展名  
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~xi
     pause
     ```
     <br>
 * 七、 %~sI - 扩展的路径只含有短名  
     打印绝对短文件名
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~si
     pause
     ```
     <br>
 * 八、 %~aI - 将 %I 扩展到文件的文件属性  
     打印文件的属性
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~ai
     pause
     ```
     <br>
 * 九、 %~tI - 将 %I 扩展到文件的日期/时间  
     打印文件建立的日期
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~ti
     pause
     ```
     <br>
 * 十、 %~zI - 将 %I 扩展到文件的大小  
     打印文件的大小
-    ```
+    ```bat
     FOR /F "delims==" %%i IN ('dir /b') DO @echo %%~zi
     pause
     ```
@@ -228,7 +228,7 @@
 * 十一、 %~$PATH:I - 查找列在路径环境变量的目录，并将 %I 扩展到找到的第一个完全合格的名称。如果环境变量名未被定义，或者没有找到文件，此组合键会扩展到空字符串
     这是最后一个,和上面那些都不一样,我单独说说!  
     然后在把这些代码保存为批处理,放在桌面。  
-    ```
+    ```bat
     @echo off
     FOR /F "delims=" %%i IN (“notepad.exe”) DO echo %%~$PATH:i
     pause
